@@ -7,7 +7,13 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>tigers-api-test</name>
 	<description>Tigers Class Karate Framework</description>
-
+<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.version>3.8.1</maven.compiler.version>
+		<maven.surefire.version>2.22.2</maven.surefire.version>
+	</properties>
 	<dependencies>
 
 		<!-- https://mvnrepository.com/artifact/org.junit.platform/junit-platform-commons -->

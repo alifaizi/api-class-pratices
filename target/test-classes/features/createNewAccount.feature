@@ -19,3 +19,5 @@ Feature: Create Account
     When method post
     Then status 201
     And print response
+    
+    # With the above steps we can create a new account -- It is just for testing
